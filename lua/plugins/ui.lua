@@ -1,12 +1,4 @@
 return {
-  {
-    "akinsho/bufferline.nvim",
-    opts = {
-      options = {
-        mode = "tabs", -- Show tabs on top insteadof buffers
-      },
-    },
-  },
   { -- highlight interesting words
     "Mr-LLLLL/interestingwords.nvim",
     opts = {
