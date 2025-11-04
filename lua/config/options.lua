@@ -19,3 +19,6 @@ g.autoformat = false
 g.lazyvim_python_lsp = "basedpyright"
 -- Set to "ruff_lsp" to use the old LSP implementation version.
 g.lazyvim_python_ruff = "ruff"
+
+-- Prevent auto-closing parenthesis
+g.minipairs_disable = true
