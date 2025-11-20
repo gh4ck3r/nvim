@@ -1,3 +1,4 @@
+-- require("interestingwords").UncolorAllWords() do cancel_color_key
 return {
   { -- highlight interesting words
     "Mr-LLLLL/interestingwords.nvim",
@@ -10,9 +11,10 @@ return {
         search_key = "<leader>m",
         cancel_search_key = "<leader>M",
         color_key = "<leader>k",
-        cancel_color_key = "<leader>K",
+        cancel_color_key = "<leader>^k",
         select_mode = "loop", -- random or loop
       },
     },
   },
 }
+
