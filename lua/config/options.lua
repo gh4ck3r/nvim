@@ -10,6 +10,8 @@ o.clipboard = "unnamedplus"
 -- Disable wrapscan
 o.wrapscan = false 
 
+vim.opt.fileencodings = "ucs-bom,utf-8,euc-kr,cp949,default,latin1"
+
 local g = vim.g
 -- prevent reindent when saving
 g.autoformat = false
