@@ -8,9 +8,12 @@ o.splitkeep = "cursor"
 -- Use system clipboard when yank visual block
 o.clipboard = "unnamedplus"
 -- Disable wrapscan
-o.wrapscan = false 
+o.wrapscan = false
 
-vim.opt.fileencodings = "ucs-bom,utf-8,euc-kr,cp949,default,latin1"
+--highlight textwidth
+o.colorcolumn="+1,+21,+41"
+
+o.fileencodings = "ucs-bom,utf-8,euc-kr,cp949,default,latin1"
 
 local g = vim.g
 -- prevent reindent when saving
