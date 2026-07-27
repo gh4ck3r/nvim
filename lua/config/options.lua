@@ -11,6 +11,7 @@ o.clipboard = "unnamedplus"
 o.wrapscan = false
 
 --highlight textwidth
+o.textwidth = 80
 o.colorcolumn="+1,+21,+41"
 
 o.fileencodings = "ucs-bom,utf-8,euc-kr,cp949,default,latin1"
