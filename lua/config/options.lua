@@ -16,6 +16,9 @@ o.colorcolumn="+1,+21,+41"
 
 o.fileencodings = "ucs-bom,utf-8,euc-kr,cp949,default,latin1"
 
+-- for C++ template arguments
+o.matchpairs:append("<:>")
+
 local g = vim.g
 -- prevent reindent when saving
 g.autoformat = false
