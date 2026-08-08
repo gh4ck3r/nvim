@@ -21,6 +21,8 @@ o.matchpairs:append("<:>")
 
 o.relativenumber = false
 
+o.ignorecase = false
+
 local g = vim.g
 -- prevent reindent when saving
 g.autoformat = false
